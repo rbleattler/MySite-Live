@@ -16,5 +16,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Pages\Error.cshtml" />
+    <None Include="wwwroot\JS30\1\sounds\boom.wav" />
+    <None Include="wwwroot\JS30\1\sounds\clap.wav" />
+    <None Include="wwwroot\JS30\1\sounds\hihat.wav" />
+    <None Include="wwwroot\JS30\1\sounds\kick.wav" />
+    <None Include="wwwroot\JS30\1\sounds\openhat.wav" />
+    <None Include="wwwroot\JS30\1\sounds\ride.wav" />
+    <None Include="wwwroot\JS30\1\sounds\snare.wav" />
+    <None Include="wwwroot\JS30\1\sounds\tink.wav" />
+    <None Include="wwwroot\JS30\1\sounds\tom.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Pages\CodingProjects.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\NewFolder\" />
   </ItemGroup>
 </Project>

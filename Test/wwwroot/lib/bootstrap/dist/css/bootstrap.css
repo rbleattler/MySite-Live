@@ -5257,7 +5257,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 
     .navbar-brand > img {
-        display: block;
+        display: none;
     }
 
 @media (min-width: 768px) {
@@ -8197,5 +8197,6 @@ button.close {
     height: 50px;
     max-height: 340px;
 }
+
 
 /*# sourceMappingURL=bootstrap.css.map */
