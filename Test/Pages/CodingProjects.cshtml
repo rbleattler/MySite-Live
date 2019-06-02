@@ -1,0 +1,64 @@
+﻿@page
+@model CodingProjectsModel
+@{
+    ViewData["Title"] = "Coding Projects";
+}
+
+<style>
+    table {
+        table-layout: auto;
+        border: 2px solid black;
+        /*border-color: black;*/
+        padding: .5rem;
+        border-collapse: separate;
+        border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        width: 100%;
+    }
+
+        table th, table td, table tr {
+            padding: 1rem;
+            text-align: center;
+        }
+</style>
+
+<h2>@ViewData["Title"]</h2>
+<h3>Javascript30</h3>
+<p>
+    I have built, or will build each project from Wes Bos's 30 Day Vanilla JS Coding Challenge.
+    Learn More at <a href="https://javascript30.com/">Javascript30.com</a>
+</p>
+<div>
+    <table>
+        <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>My Notes</th>
+        </tr>
+        <tr>
+            <td>
+                <a href="~/JS30/1/JSDrumkit.html">JavaScript Drum Kit</a>
+            </td>
+            <td>Build a simple drum kit which can be controlled by the keyboard.</td>
+            <td>
+                I found this project fun and interesting.
+                While the original project was just to make this interactive with keyboard input only,
+                I decided to expand on it myself, and add click functionality as well
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="~/JS30/2/JSClock.html">JavaScript Clock</a>
+            </td>
+            <td>
+                Build a simple clock using CSS which updates automatically using Javascript. 
+            </td>
+            <td>
+                This was a quick but neat project that I had fun with. I expanded on the original idea a bit by
+                changing the hands from all being the same size to matching a traditional analog clock --
+                Hour shortest/fattest, minute long/average, second longest/thinnest.
+            </td>
+        </tr>
+
+    </table>
+</div>
