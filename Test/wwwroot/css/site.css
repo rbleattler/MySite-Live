@@ -35,3 +35,19 @@ body {
         display: none;
     }
 }
+
+
+div.block-round {
+    border-radius: .5rem;
+    border: 1rem gray;
+    width: 55px;
+    background-color: white;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: -webkit-center;
+    margin: 12%;
+    -webkit-text-stroke-width: medium;
+    display: none;
+    /*visibility: hidden;*/
+}
+
