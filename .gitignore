@@ -1,6 +1,9 @@
 # Autosave files
 *~
 
+#Private
+CustomProfile.pubxml
+
 # build
 [Oo]bj/
 [Bb]in/
